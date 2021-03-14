@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>The Area and Perimeter App</title>
+    <script>
+        var length = prompt("Enter the length of the rectangle");
+        length = parseFloat(length);
+        var width = prompt("Enter the width of the rectangle");
+        width = parseFloat(width);
+        var area = length * width;
+        area = parseInt(area);
+        var parimeter = 2 * length + 2 * width;
+        parimeter = parseInt(parimeter);
+    </script>
+</head>
+<body>
+    <script>
+        document.write("<h1>The Area and Perimeter App</h1>");
+		document.write("Length = " + length + "<br>" +
+				    "Width = " + width + "<br><br>" +
+                    "Area = " + area + "<br>" +
+                    "Perimeter = " + parimeter + "<br><br>");
+    </script>
+    Thanks for using the Area and Perimeter application!
+</body>
+</html>
